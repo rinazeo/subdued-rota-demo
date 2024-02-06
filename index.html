@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdued Rota</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content-wrapper">
+    <div class="header">
+        <div class="header-date">
+            <h3>Feb 5 - 11</h3>
+        </div>
+        
+        <div class="header-logo">
+            <img class="logo" src="assets/logo.svg">
+        </div>
+
+        <div class="header-actions">
+            <div class="user-avatar">
+                <img class="avatar" height="30px" width="30px" src="https://img.freepik.com/free-psd/cool-man-3d-cartoon-avatar-portrait_627936-10.jpg?w=996&t=st=1707166664~exp=1707167264~hmac=4d00917c41ed2c46bed926ade36e08456db99b935c2db2d6ff9897251d89137a">
+            </div>
+            <div class="haction-view"> Admin view ↓</div>
+            <div class="haction-publish">
+                <button class="submit-button" value="submit">Publish</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="toolbar">
+        <div class="tview">View ↓</div>
+        <div class="tdate">05/02/2024</div>
+        <div class="tcost">Hours and cost</div>
+        <div class="tprofiles">Staff profiles</div>    
+    </div>
+    <hr>
+
+<div class="table">
+    <table>
+        <tr>
+        <th><input class="search" placeholder="search..."></th>
+        <th><h4>Mon 5</h4><p>No. of Staff</p></th>
+        <th><h4>Tue 6</h4><p>No. of Staff</p></th>
+        <th><h4>Wed 7</h4><p>No. of Staff</p></th>
+        <th><h4>Thu 8</h4><p>No. of Staff</p></th>
+        <th><h4>Fri 9</h4><p>No. of Staff</p></th>
+        <th><h4>Sat 10</h4><p>No. of Staff</p></th>
+        <th><h4>Sun 11</h4><p>No. of Staff</p></th>
+        </tr>
+
+        <tr id="a">
+        <td class="emp">Sarah Johnson 
+            <p>Manager</p>
+            <span>40/40</span>
+        </td>
+        <td id="a1" class="blank"></td>
+        <td id="a2"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="a3"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="a4" class="blank"></td>
+        <td id="a5"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="a6"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="a7" class="blank"></td>
+        </tr>
+
+        <tr id="b">
+        <td class="emp">Michael Davis
+            <p>Ass. Manager</p>
+            <span>40/40</span>
+        </td>
+        <td id="b1"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="b2"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="b3"></td>
+        <td id="b4"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="b5"></td>
+        <td id="b6"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="b7"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        </tr>
+
+        <tr id="c">
+        <td class="emp">Emily Thompson
+            <p>Visual</p>
+            <span>40/40</span>
+        </td>
+        <td id="c1"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="c2"></td>
+        <td id="c3"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="c4"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="c5"><h5>Manager</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="c6"></td>
+        <td class="sick" id="c7"><h5>Sick</h5></td> 
+        </tr>
+
+        <tr id="d">
+        <td class="emp">David Rodriguez
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td class="holiday" id="d1"><h5>Holiday</h5></td>
+        <td class="holiday" id="d2"><h5>Holiday</h5></td>
+        <td class="holiday" id="d3"><h5>Holiday</h5></td>
+        <td class="holiday" id="d4"><h5>Holiday</h5></td>
+        <td id="d5"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="d6"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="carnaby" id="d7"><h5>Sales</h5> <h6>10:00 - 19:30</h6><h6>Carbany</h6></td> 
+        </tr>
+
+        <tr id="e">
+        <td class="emp">Jessica Smith
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td id="e1"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="e2"></td>
+        <td id="e3"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="e4"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="carnaby" id="e5"><h5>Sales</h5> <h6>10:00 - 19:30</h6><h6>Carbany</h6></td> 
+        <td class="carnaby" id="e6"><h5>Sales</h5> <h6>10:00 - 19:30</h6><h6>Carbany</h6></td> 
+        <td class="blank" id="e7"></td>
+        </tr>
+
+        <tr id="f">
+        <td class="emp">Christopher Brown
+            <p>Stock</p>
+            <span>40/40</span>
+        </td>
+        <td class="blank" id="f1"></td>
+        <td id="f2"><h5>Stock</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="f3"><h5>Stock</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="f4"><h5>Stock</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="f5"></td>
+        <td id="f6"><h5>Stock</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="f7"><h5>Stock</h5> <h6>10:00 - 19:30</h6></td>
+        </tr>
+
+        <tr id="g">
+        <td class="emp">Ashley Wilson
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td class="na" id="g1"><h5>Not Available</h5></td>
+        <td id="g2"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="g3"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td class="blank" id="g4"></td>
+        <td class="blank" id="g5"></td>
+        <td id="g6"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        <td id="g7"><h5>Sales</h5> <h6>10:00 - 19:30</h6></td>
+        </tr>
+
+        <tr id="h">
+        <td class="emp">Brian Miller
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td id="h7"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        <td class="na" id="h6"><h5>Not Available</h5></td>
+        <td class="blank" id="h5"></td>
+        <td id="h4"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td id="h3"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        <td id="h2"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        <td class="blank" id="h1"></td>
+        </tr>
+
+        <tr id="i">
+        <td class="emp">Olivia Taylor
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td class="na" id="i7"><h5>Not Available</h5></td> 
+        <td id="i6"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td id="i5"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td class="blank" id="i4"></td> 
+        <td id="i3"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td id="i2"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        <td class="blank" id="i1"></td>
+        </tr>
+
+        <tr id="j">
+        <td class="emp">Matthew Anderson
+            <p>Sales</p>
+            <span>40/40</span>
+        </td>
+        <td class="sick" id="j1"><h5>Sick</h5></td> 
+        <td id="j2"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td id="j3"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td id="j4"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td> 
+        <td class="blank" id="j5"></td> 
+        <td class="blank" id="j6"></td> 
+        <td id="j7"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        </tr>
+
+
+
+
+
+
+
+<!-- 
+        <tr id="k">
+            <td class="emp">Lauren Martinez
+            <p>Sales</p>
+            <span>40/40</span>
+            </td>
+            <td class="carnaby" id="shift"><h5>Sales</h5> <h6>10:00 - 19:30</h6><h6>Carbany</h6></td> 
+            <td class="sick" id="shift"><h5>Sick</h5></td> 
+            <td class="sick" id="shift"><h5>Sick</h5></td>
+            <td class="blank" id="shift"></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        </tr>
+
+        <tr id="l">
+        <td class="emp">James Lee
+            <p>Sales</p>
+            <span>20/20</span>
+            </td>
+            <td class="blank" id="shift"></td>
+            <td class="carnaby" id="shift"><h5>Sales</h5> <h6>10:00 - 19:30</h6><h6>Carbany</h6></td>
+            <td class="blank" id="shift"></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td class="blank" id="shift"></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td class="blank" id="shift"></td>
+        </tr>
+        
+        <tr id="m">
+        <td class="emp">Samantha Williams
+            <p>Sales</p>
+            <span>32/0</span>
+            </td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td class="na" id="shift"><h5>Not Available</h5></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td class="na" id="shift"><h5>Not Available</h5></td>
+            <td class="na" id="shift"><h5>Not Available</h5></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+            <td id="shift"><h5>Sale</h5> <h6>9:00 - 18:00</h6></td>
+        </tr> -->
+
+
+        
+    </table>
+
+    <button class="sticky" onclick="generate()">Generate Rota</button>
+</div>
+</div>  
+
+
+
+<!-- 
+<script>
+    function generate(){
+        document.getElementById("a1").style.display="flex";
+        document.getElementById("a2").style.display="flex";
+        document.getElementById("a3").style.display="flex";
+        document.getElementById("a4").style.display="flex";
+        document.getElementById("a5").style.display="flex";
+        document.getElementById("a6").style.display="flex";
+        document.getElementById("a7").style.display="flex";
+
+        document.getElementById("b1").style.display="flex";
+        document.getElementById("b2").style.display="flex";
+        document.getElementById("b3").style.display="flex";
+        document.getElementById("b4").style.display="flex";
+        document.getElementById("b5").style.display="flex";
+        document.getElementById("b6").style.display="flex";
+        document.getElementById("b7").style.display="flex";
+        
+        document.getElementById("c1").style.display="flex";
+        document.getElementById("c2").style.display="flex";
+        document.getElementById("c3").style.display="flex";
+        document.getElementById("c4").style.display="flex";
+        document.getElementById("c5").style.display="flex";
+        document.getElementById("c6").style.display="flex";
+        document.getElementById("c7").style.display="flex";
+
+        document.getElementById("d1").style.display="flex";
+        document.getElementById("d2").style.display="flex";
+        document.getElementById("d3").style.display="flex";
+        document.getElementById("d4").style.display="flex";
+        document.getElementById("d5").style.display="flex";
+        document.getElementById("d6").style.display="flex";
+        document.getElementById("d7").style.display="flex";
+
+        document.getElementById("e1").style.display="flex";
+        document.getElementById("e2").style.display="flex";
+        document.getElementById("e3").style.display="flex";
+        document.getElementById("e4").style.display="flex";
+        document.getElementById("e5").style.display="flex";
+        document.getElementById("e6").style.display="flex";
+        document.getElementById("e7").style.display="flex";
+        
+        document.getElementById("f1").style.display="flex";
+        document.getElementById("f2").style.display="flex";
+        document.getElementById("f3").style.display="flex";
+        document.getElementById("f4").style.display="flex";
+        document.getElementById("f5").style.display="flex";
+        document.getElementById("f6").style.display="flex";
+        document.getElementById("f7").style.display="flex";
+
+        document.getElementById("g7").style.display="flex";
+        document.getElementById("g6").style.display="flex";
+        document.getElementById("g5").style.display="flex";
+        document.getElementById("g4").style.display="flex";
+        document.getElementById("g2").style.display="flex";
+        document.getElementById("g3").style.display="flex";
+        document.getElementById("g1").style.display="flex";
+
+        document.getElementById("h1").style.display="flex";
+        document.getElementById("h2").style.display="flex";
+        document.getElementById("h3").style.display="flex";
+        document.getElementById("h4").style.display="flex";
+        document.getElementById("h5").style.display="flex";
+        document.getElementById("h6").style.display="flex";
+        document.getElementById("h7").style.display="flex";
+        
+        document.getElementById("i1").style.display="flex";
+        document.getElementById("i2").style.display="flex";
+        document.getElementById("i3").style.display="flex";
+        document.getElementById("i4").style.display="flex";
+        document.getElementById("i5").style.display="flex";
+        document.getElementById("i6").style.display="flex";
+        document.getElementById("i7").style.display="flex";
+
+        document.getElementById("j1").style.display="flex";
+        document.getElementById("j2").style.display="flex";
+        document.getElementById("j3").style.display="flex";
+        document.getElementById("j4").style.display="flex";
+        document.getElementById("j5").style.display="flex";
+        document.getElementById("j6").style.display="flex";
+        document.getElementById("j7").style.display="flex";
+    } -->
+<!-- </script> -->
+
+
+</body>
+</html>
